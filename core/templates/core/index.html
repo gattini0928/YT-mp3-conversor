@@ -8,7 +8,22 @@
     <link rel="stylesheet" href="{% static 'css/conversor.css' %}">
 </head>
 <body>
-    <h1>Working</h1>
+    <div class="container">
+        <h1>YT MP3 Conversor</h1>
+        <form action="">
+            <div class="inputs-labels">
+                <label for="conversor">Digite ou cole a sua url:</label>
+                <input type="text" id="conversor" name="conversor" placeholder="Url" required>
+            </div>
+            <button type="submit" class="converter-btn">Converter para MP3</button>
+        </form>
+        <div class="progress-bar">
+            <div class="bar"></div>
+            <span>100%</span>
+        </div>
+        <span class="music-info">Título: NF - Home(Aúdio)</span>
+        <a href="" class="download-btn">Download</a>
+    </div>
 </body>
 <script>"{% static 'js/conversor.js' %}"</script>
 </html>
