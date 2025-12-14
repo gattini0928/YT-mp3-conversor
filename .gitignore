@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Ambiente virtual
+# =========================
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+# Django
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Migrações (opcional – comente se quiser versionar)
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# =========================
+# Arquivos de ambiente
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Static files
+# =========================
+staticfiles/
+
+# =========================
+# IDEs / Editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
